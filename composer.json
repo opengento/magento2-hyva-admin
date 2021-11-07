@@ -1,0 +1,62 @@
+{
+  "name": "opengento/module-magento2-hyva-admin",
+  "description": "Implementation of hyva-themes/module-magento2-admin",
+  "keywords": [
+    "hyva",
+    "hyva-grid",
+    "magento2"
+  ],
+  "repositories": {
+    "magento": {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  },
+  "require": {
+    "php": "^7.3",
+    "hyva-themes/module-magento2-admin": ">=1.1.16"
+  },
+  "type": "magento2-module",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "homepage": "https://github.com/opengento/magento2-hyva-admin",
+  "authors": [
+    {
+      "name": "Opengento Team",
+      "email": "opengento@gmail.com",
+      "homepage": "https://opengento.fr/",
+      "role": "lead"
+    },
+    {
+      "name": "Frédéric MARTINEZ",
+      "email": "frederic.martinez@ph2m.com",
+      "homepage": "https://www.ph2m.com/",
+      "role": "maintainer"
+    },
+    {
+      "name": "RedMonks",
+      "email": "dev@redmonks.agency",
+      "homepage": "https://redchamps.com/",
+      "role": "maintainer"
+    },
+    {
+      "name": "Ravinder",
+      "email": "rav@redchamps.com",
+      "homepage": "https://twitter.com/_iamRav",
+      "role": "maintainer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/opengento/magento2-hyva-admin",
+    "issues": "https://github.com/opengento/magento2-hyva-admin/issues"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Opengento\\HyvaAdmin\\": ""
+    }
+  }
+}
