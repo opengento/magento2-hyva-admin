@@ -20,15 +20,6 @@ composer require opengento/module-magento2-hyva-admin
 bin/magento setup:upgrade
 ```
 
-Magento 2 Commerce:
-
-```
-composer require opengento/module-magento2-commerce-hyva-admin
-bin/magento setup:upgrade
-```
-
-Separate repository for Magento 2 [Adobe Commerce grids](https://github.com/opengento/magento2-commerce-hyva-admin)
-
 ## Grids replaced
 
 Legend:
